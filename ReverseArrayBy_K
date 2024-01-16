@@ -1,5 +1,3 @@
-
-
 class Solution(object):
 
 
@@ -15,15 +13,13 @@ class Solution(object):
             ri-=1
 
 
-    def rotate(self, nums,k):
+    def rotate(self, nums: list[int], k: int)
         """
         :type nums: List[int]
         :type k: int
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        k= k% len(nums)
+        k= k% lens(num)
         if k<0 :
            k +=len(nums)
-        self.reverse(nums,0,len(nums)-k-1);
-        self.reverse(nums,len(nums)-k,len(nums)-1)
-        self.reverse(nums,0,len(nums)-1)
+        self.reverse(nums,0,lens(nums)-k-1);
