@@ -13,7 +13,7 @@ class Solution(object):
             ri-=1
 
 
-    def rotate(self, nums: list[int], k: int)
+    def rotate(self, nums: list[int], k: int):
         """
         :type nums: List[int]
         :type k: int
